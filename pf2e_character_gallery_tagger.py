@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-ImageTagger v4 – UI‑Verbesserungen
-
-* Das Tags‑Panel wächst nun mit der Fenstergröße.
-* Alle "Alle auswählen / Alle abwählen" Buttons wurden gelöscht.
-* Spinbox für Scale, klare Clear‑Buttons und scrollbare Tags‑Box bleiben erhalten
-  (Scrollbars wurden entfernt – das Panel nutzt die gesamte Breite).
-"""
-
 import json
 import os
 from tkinter import (
